@@ -1,70 +1,126 @@
-# Getting Started with Create React App
+<!--
+*** Thanks for checking out this README Template. If you have a suggestion that would
+*** make this better, please fork the repo and create a pull request or simply open
+*** an issue with the tag "enhancement".
+*** Thanks again! Now go create something AMAZING! :D
+-->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
 
-## Available Scripts
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/Audrey-Ella-xo/calculator">
+    <img src="https://raw.githubusercontent.com/euqueme/toy-app/master/app/assets/images/mLogo.png" alt="Logo" width="80" height="80">
+  </a>
 
-In the project directory, you can run:
+  <h3 align="center">React Basic Calculator project</h3>
 
-### `npm start`
+  <p align="center">
+    This project is part of the Microverse React/Redux curriculum!
+    <br />
+    <a href="https://github.com/Audrey-Ella-xo/calculator"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/Audrey-Ella-xo/calculator/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/Audrey-Ella-xo/calculator/issues">Request Feature</a>
+  </p>
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* [About the Project](#about-the-project)
+  * [API Development Guidelines and Timelines](#api-development-guidelines-and-timelines)
+  * [Documentation](#documentation)
+  * [Getting Started](#getting-started)
+  * [Prerequisites](#prerequisites)
+  * [Setup](#setup)
+  * [Usage](#usage)
+  * [Run Test](#run-test)
+  * [Deployment](#deployment)
+  * [Built With](#built-with)
+* [Authors](#authors)
+* [Contributing](#contributing)
+* [Show your support](#show-support)
+* [Acknowledgements](#acknowledgements)
+* [License](#license)
 
-### `npm test`
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![screenshot](app/assets/images/project-index.png)
 
-### `npm run build`
+This is a project that was started with the aim to learn about the various concepts of react.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- The project was deployed in [Heroku](https://ella-react-calculator.herokuapp.com/) 
 
-### `npm run build` fails to minify
+### Built With
+This project was built using these technologies.
+* React
+* Ubuntu 18.4+
+* Stickler
+* VsCode
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!-- CONTACT -->
+## Authors
+
+Audrey Emmanuella Odiaka - [@o___audrey_xo](https://twitter.com/o___audrey_xo) - [@audrey-ella-xo](https://github.com/audrey-ella-xo) - anitaudrey@gmail.com
+<br />
+<br />
+
+Project [Link](https://github.com/Audrey-Ella-xo/calculator/)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+* [Microverse](https://www.microverse.org/)
+* [Heroku](https://www.heroku.com/)
+* [The Best readme Template](https://github.com/othneildrew/Best-README-Template)
+* [Austin Kabiru](https://scotch.io/tutorials/build-a-restful-json-api-with-rails-5-part-one)
+* [A D Vishnu Prasad](https://advishnuprasad.com/blog/2016/02/07/api-docs-using-rspecs/)
+* [How to document REST APIs with Swagger and Ruby on Rails](https://medium.com/@sushildamdhere/how-to-document-rest-apis-with-swagger-and-ruby-on-rails-ae4e13177f5d)
+
+
+
+<!-- LICENSE -->
+## 📝 License
+
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/Audrey-Ella-xo/calculator.svg?style=flat-square
+[contributors-url]: https://github.com/Audrey-Ella-xo/calculator/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Audrey-Ella-xo/calculator.svg?style=flat-square
+[forks-url]: https://github.com/Audrey-Ella-xo/calculator/network/members
+[stars-shield]: https://img.shields.io/github/stars/Audrey-Ella-xo/calculator.svg?style=flat-square
+[stars-url]: https://github.com/Audrey-Ella-xo/calculator/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Audrey-Ella-xo/calculator.svg?style=flat-square
+[issues-url]: https://github.com/Audrey-Ella-xo/calculator/issues
+[product-screenshot]: /app/assets/images/projects-index.png
