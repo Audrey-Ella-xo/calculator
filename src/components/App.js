@@ -1,4 +1,3 @@
-// import PropTypes from 'prop-types';
 import Display from './Display';
 import ButtonPannel from './ButtonPannel';
 
