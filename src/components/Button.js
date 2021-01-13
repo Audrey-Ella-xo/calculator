@@ -8,9 +8,7 @@ const Button = props => {
     wide,
   } = props;
   return (
-    <button type="button" className="btn" style={{ backgroundColor: color, width: wide ? '50%' : '25%' }}>
-      {name}
-    </button>
+    <button type="button" className="btn" style={{ backgroundColor: color, width: wide ? '50%' : '25%' }}>{name}</button>
   );
 };
 
