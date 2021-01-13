@@ -52,7 +52,7 @@
 
 .group1, .group2, .group3, .group4, .group5 {
   display: flex;
-  height: 100px; }
+  height: 80px; }
 
 .btn {
   font-size: 3em;
