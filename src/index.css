@@ -44,9 +44,14 @@
   position: relative;
   justify-content: flex-end; }
 
-.btn-panel {
+.ButtonPannel {
   display: flex;
   flex-direction: column;
   margin: 10px;
   box-sizing: border-box; }
+
+.group1, .group2, .group3, .group4, .group5 {
+  display: flex;
+  height: 100px; }
+  
   
