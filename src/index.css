@@ -4,7 +4,7 @@
   border-radius: 5px;
   background-color: #726c6b63;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
   font-family:
     -apple-system,
     BlinkMacSystemFont,
@@ -27,7 +27,7 @@
   border-radius: 30px;
   border: 1px solid #eee;
   background-color: #858693;
-  box-shadow: 0 0 50px 2px rgb(22, 22, 22); 
+  box-shadow: 0 0 50px 2px rgb(22, 22, 22);
 }
 
 .display {
@@ -42,17 +42,24 @@
   padding: 0 20px;
   font-weight: bold;
   position: relative;
-  justify-content: flex-end; }
+  justify-content: flex-end;
+}
 
 .ButtonPannel {
   display: flex;
   flex-direction: column;
   margin: 10px;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
-.group1, .group2, .group3, .group4, .group5 {
+.group1,
+.group2,
+.group3,
+.group4,
+.group5 {
   display: flex;
-  height: 80px; }
+  height: 80px;
+}
 
 .btn {
   font-size: 3em;
@@ -61,4 +68,3 @@
   font-weight: bold;
   color: rgb(53, 51, 51);
 }
-  
