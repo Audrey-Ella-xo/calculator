@@ -1,6 +1,7 @@
 import Display from './Display';
 import ButtonPannel from './ButtonPannel';
-import calculate from '../logic/calculate'
+// import calculate from '../logic/calculate';
+
 function App() {
   return (
     <div className="App">
