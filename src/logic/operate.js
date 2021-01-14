@@ -1,6 +1,6 @@
 import Big from 'big.js';
 
-const Operate = (numOne, numTwo, operation) => {
+const operate = (numOne, numTwo, operation) => {
   const num1 = Big(numOne);
   const num2 = Big(numTwo);
 
@@ -23,10 +23,9 @@ const Operate = (numOne, numTwo, operation) => {
       total = num1.div(100);
       break;
     default:
-      break;
   }
 
   return total;
 };
 
-export default Operate;
+export default operate;
