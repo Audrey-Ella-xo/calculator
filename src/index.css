@@ -61,3 +61,15 @@
   font-weight: bold;
   border: 1px solid #d1d1d1;
 }
+
+.btn:hover {
+  -webkit-box-shadow: inset 0 0 30px #101011;
+  -moz-box-shadow: inset 0 0 30px #101011;
+  box-shadow: inset 0 0 30px #101011;
+}
+
+.btn:focus {
+  color: red;
+  border: none;
+  outline: none;
+}
