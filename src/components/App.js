@@ -5,8 +5,10 @@ function App() {
   return (
     <div className="App">
       <>
-        <Display />
-        <ButtonPannel />
+        <div className="calc-container">
+          <Display />
+          <ButtonPannel />
+        </div>
       </>
     </div>
   );
