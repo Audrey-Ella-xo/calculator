@@ -30,10 +30,30 @@ const Calculate = (data, btnName) => {
             }
             break;
         case '=':
-            
+            if(total && next){
+                total = operation(total, next, operation);
+                next = null
+                operation = null
+            }
+            break;
+        case '+/-':
+            if(total){
+                total *= -1;
+            } else if(next){
+                next *= -1;
+            }
+            break;
+
         default:
+            if (next){
+                next += btnName;
+            }else {
+                next = btnName;
+            }
             break;
     }
+
+    return { total, next, operation }
 }
 
 export default Calculate;
