@@ -1,32 +1,38 @@
 const Calculate = (data, btnName) => {
-    const checkNumber = testNumber => /\d/.test(testNumber)
-    const checkOperation = testOperation => /\+|-|x|÷|%/.test(testOperation)
-    if(btnName == 'AC'){
-        data.operation = null;
-        data.next = null;
-        data.total = null;
-    }
+    let { total, next, operation } = data;
 
-    if(btnName == '.'){
-        
-    }
-
-    if(btnName == '='){
-        
-    }
-
-    if(btnName == '+/-'){
-        
-    }
-
-    if(checkNumber(btnName)){
-        if(data.next){
-            data.next += btnName;
-        }
-    }
-
-    if(checkOperation(btnName)){
-        
+    switch (btnName) {
+        case 'AC':
+            total = null;
+            next = null;
+            operation = null
+            break;
+        case '+':
+        case '-':
+        case 'x':
+        case '÷':
+        case '%':
+            if(!total) break;
+            if(next && operation) {
+                total = operate(total, next, operation);
+            }
+            operation = btnName;
+            break;
+        case '.':
+            if (total && !total.split('').includes('.') && !operation ){
+                total = `${total}${btnName}`
+            }
+            else if(next){
+                next += btnName;
+            }
+            else {
+                next = `0${btnName}`
+            }
+            break;
+        case '=':
+            
+        default:
+            break;
     }
 }
 
