@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unused-state */
 import React from 'react';
 import Display from './Display';
 import ButtonPannel from './ButtonPannel';
@@ -20,7 +21,7 @@ class App extends React.Component {
   }
 
   render() {
-    const { total, next, operation } = this.state;
+    const { total, next } = this.state;
     return (
       <div className="App">
         <>
