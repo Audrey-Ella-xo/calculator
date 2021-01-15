@@ -17,6 +17,7 @@ const calculate = (data, btnName) => {
       if (!total) break;
       if (next && operation) {
         total = operate(total, next, operation);
+        next = null;
       }
       operation = btnName;
       break;
@@ -31,7 +32,7 @@ const calculate = (data, btnName) => {
       break;
     case '=':
       if (total && next) {
-        total = operation(total, next, operation);
+        total = operate(total, next, operation);
         next = null;
         operation = null;
       }
@@ -45,10 +46,10 @@ const calculate = (data, btnName) => {
       break;
 
     default:
-      if (next) {
-        next += btnName;
+      if (operation) {
+        next = next === null ? btnName : next + btnName;
       } else {
-        next = btnName;
+        total = total === null ? btnName : total + btnName;
       }
       break;
   }

@@ -25,7 +25,7 @@ const operate = (numOne, numTwo, operation) => {
     default:
   }
 
-  return total;
+  return total.toString();
 };
 
 export default operate;
