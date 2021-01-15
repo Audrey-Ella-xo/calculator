@@ -14,9 +14,9 @@ class App extends React.Component {
     this.handleClick = this.handleClick.bind(this);
   }
 
-  handleClick (btnName){
+  handleClick(btnName) {
     const result = calculate(this.state, btnName);
-    this.setState(result)
+    this.setState(result);
   }
 
   render() {
@@ -26,7 +26,7 @@ class App extends React.Component {
         <>
           <div className="calc-container">
             <Display result={(next === null ? total : next) || '0'} />
-            <ButtonPannel clickHandler={ e => this.handleClick(e)}/>
+            <ButtonPannel clickHandler={e => this.handleClick(e)} />
           </div>
         </>
       </div>
