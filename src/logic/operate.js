@@ -17,7 +17,7 @@ const operate = (numOne, numTwo, operation) => {
       total = num1.times(num2);
       break;
     case '÷':
-      total = num1 === 0 ? 'Error: Not divisible by zero' : num1.div(num2);
+      total = num2.eq(0) ? 'Not divisible by zero' : num1.div(num2);
       break;
     case '%':
       total = num1.div(100);
