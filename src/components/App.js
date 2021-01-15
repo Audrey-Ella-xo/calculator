@@ -26,7 +26,7 @@ class App extends React.Component {
         <>
           <div className="calc-container">
             <Display result={(next === null ? total : next) || '0'} />
-            <ButtonPannel />
+            <ButtonPannel clickHandler={ e => this.handleClick(e)}/>
           </div>
         </>
       </div>
