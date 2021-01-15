@@ -43,13 +43,8 @@
 ## Table of Contents
 
 * [About the Project](#about-the-project)
-  * [API Development Guidelines and Timelines](#api-development-guidelines-and-timelines)
-  * [Documentation](#documentation)
-  * [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
   * [Setup](#setup)
   * [Usage](#usage)
-  * [Run Test](#run-test)
   * [Deployment](#deployment)
   * [Built With](#built-with)
 * [Authors](#authors)
@@ -61,11 +56,48 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![screenshot](app/assets/images/project-index.png)
+![screenshot](./public/calc-demo.gif)
 
 This is a project that was started with the aim to learn about the various concepts of react.
 
 ---
+
+### Setup and installation
+
+
+```
+git clone git@github.com:Audrey-Ella-xo/calculator.git
+```
+
+```
+cd calculator
+```
+
+### Usage
+
+```
+npm install
+```
+
+> This action will install all the dependencies at the root directory of the cloned project.
+
+### Run linter checks
+
+```
+npx eslint .
+```
+
+### Run the site
+
+```
+npm start
+```
+This runs the app in the development mode.
+
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.
+You will also see any lint errors in the console.
 
 ### Deployment
 
