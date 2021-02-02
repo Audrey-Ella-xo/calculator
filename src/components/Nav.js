@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom';
 
 const Nav = () => (
   <nav>
+    <Link className="logo" to="/">
+      <h1>Math Magicians</h1>
+    </Link>
     <ul className="nav-links">
       <Link to="/">
         <li>Home</li>

@@ -85,3 +85,10 @@ nav{
   align-items: center;
   list-style: none;
 }
+
+.logo {
+  text-decoration: none;
+  color: #eee;
+  font-size: 1.5rem;
+  font-variant: small-caps;
+}
